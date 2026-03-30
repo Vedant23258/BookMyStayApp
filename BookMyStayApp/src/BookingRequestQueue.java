@@ -21,4 +21,10 @@ public class BookingRequestQueue {
     public boolean hasPendingRequests() {
         return !requestQueue.isEmpty();
     }
+
+    public void add(String guestName, String roomType) {
+
+    }
+
+
 }
